@@ -25,7 +25,7 @@ and the data aquesition controll logic block.
 The analog front end block is repsonsible for filtering the two analog voltages that we are measuring with the scope, and for sending
 those voltages into adc's to be sampled. This block is completely on the PCB.
 
-The trigger block is used to generate a trigger signal, that is used by the data aquisition control logic block to trigger the signals we are measuring. This block is partially on the PCB and partially on the FPGA. On the PCB there is a DAC and comparator. The DAC is used to generate a trigger voltage that is sent to a comparator. The DAC is controlled over SPI by the FPGA. The comparator compares the trigger voltage and the analog voltage of the wave we are measuring, and outputs a signal that is sent to the data aq contnrol logic block. There is also a pair of rotary encoders that are used to change the trigger level.
+The trigger block is used to generate a trigger signal, that is used by the data acquisition control logic block to trigger the signals we are measuring. This block is partially on the PCB and partially on the FPGA. On the PCB there is a DAC and comparator. The DAC is used to generate a trigger voltage that is sent to a comparator. The DAC is controlled over SPI by the FPGA. The comparator compares the trigger voltage and the analog voltage of the wave we are measuring, and outputs a signal that is sent to the data aq contnrol logic block. There is also a pair of rotary encoders that are used to change the trigger level.
 On the FPGA there is logic which decodes the Rotary encoders, and that interfaces with the DAC over SPI.
 
 The data acquesition block is responsible for storing data into memory that can be accesed by the Soc and displayed on a GUI. 
