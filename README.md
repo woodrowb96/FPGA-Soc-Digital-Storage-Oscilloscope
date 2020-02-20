@@ -14,6 +14,9 @@ Code for each module is split into folders.
 There is also a folder with a schematic and PCB gerbers I designed for this project. 
 
 
+
+
+
 Bellow is a more in depth overview of the project and what I did for it. 
 
 I am responsible for three blocks within the system. The analog front end block, the trigger block, 
