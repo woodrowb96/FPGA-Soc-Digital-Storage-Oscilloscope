@@ -1,3 +1,8 @@
+/*
+THis is a testbench, ment to simulate the adc. 
+It clocks out new samples on the falling edge of the clk
+*/
+
 module mem_test_testbench(
 	input logic clk,
 	input logic reset_n,
