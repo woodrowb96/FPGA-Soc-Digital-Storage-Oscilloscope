@@ -6,8 +6,11 @@ This project is a year long project with two other students to build a two chann
 using the Cyclone V FPGA SOC. The FPGA half of the chip is used to aquire data, and the Soc(called the HPS in documentation) half of the chip is used to display that dat onto a GUI. The two halfs of the chip communicate over a pair of axi bridges. These bridges let the FPGA access HPS memory, and give the Soc access to registers on the FPGA.  This is a yearlong project and is ongoing. The project will be complete during spring term 2020. 
 
 ghrd_top.sv is the top level module for the logic on the FPGA.
+
 soc_system.qsys is the qsys system for this project.
+
 soc_system.v is the top level module for the qsys system.
+
 Code for each module is split into folders.
 
 There is also a folder with a schematic and PCB gerbers I designed for this project. 
