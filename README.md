@@ -1,4 +1,4 @@
-# Digital-Storage-Oscilloscope(Ongoing)
+# Digital-Storage-Oscilloscope
 
 This repository is for my digital storage oscilloscope project.
 
