@@ -40,3 +40,4 @@ The HPS and FPGA interface through three axi bridges. An FPGA-to-HPS bridge, a h
 
 
 
+![top_level](https://user-images.githubusercontent.com/39601174/175188719-f9bf81ba-be19-460b-af63-86b551778b3e.jpg)
